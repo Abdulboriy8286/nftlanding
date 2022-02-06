@@ -1,0 +1,153 @@
+.section-2{
+    height: 100vh;
+    background-color: #111111;
+    padding: 10px 100px;
+
+    .box{
+        background-color: #ff7438;
+        height: 200px;
+        padding: 20px 50px;
+        display: flex;
+        border-radius: 20px;
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            img{
+                width: 50px;
+                height: 50px;
+            }
+
+            h2{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+            }
+        }
+    }
+
+    .person-info{
+        display: flex;
+        margin-top: -120px;
+        margin-left: 40px;
+
+        .person{
+            transform: rotate(-10deg);
+
+            .p-img{
+                width: 250px;
+                height: 210px;
+            }
+
+            .p-info{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: black;
+                padding: 20px;
+                margin-top: -10px;
+                border-radius: 0px 0px 10px 10px;
+                .left{
+                    color: white;
+                }
+
+                .right{
+                    color: white;
+                }
+            }
+        }
+
+        .person2{
+            transform: rotate(10deg);
+
+            .p-img{
+                width: 250px;
+                height: 210px;
+            }
+
+            .p-info{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: black;
+                padding: 20px;
+                margin-top: -10px;
+                border-radius: 0px 0px 10px 10px;
+                .left{
+                    color: white;
+                }
+
+                .right{
+                    color: white;
+                }
+            }
+        }
+    }
+
+    header{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        div{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+
+            p{
+                font-size: 25px;
+                color: #CCCC;
+            }
+
+            img{
+                width: 30px;
+            }
+        }
+
+        .group{
+            width: 90px;
+            cursor: pointer;
+        }
+
+        .group2{
+            width: 140px;
+            cursor: pointer;
+        }
+    }
+
+    .persons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        .person{
+
+            .p-img{
+                width: 250px;
+                height: 210px;
+            }
+
+            .p-info{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: black;
+                padding: 20px;
+                margin-top: -10px;
+                border-radius: 0px 0px 10px 10px;
+                .left{
+                    color: white;
+                }
+
+                .right{
+                    color: white;
+                }
+            }
+        }
+    }
+}
