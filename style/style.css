@@ -111,9 +111,19 @@
 }
 
 .section-2 {
-  height: 100vh;
+  height: 110vh;
   background-color: #111111;
   padding: 10px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .section-2 .box {
@@ -228,7 +238,6 @@
 }
 
 .section-2 header {
-  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -277,7 +286,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 30px;
 }
 
 .section-2 .persons .person .p-img {
@@ -307,6 +315,247 @@
 
 .section-2 .persons .person .p-info .right {
   color: white;
+}
+
+.section-3 {
+  height: 190vh;
+  padding: 100px 100px 20px;
+  background-color: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-3 .big-box {
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #38a38e), color-stop(85%, #901e1e), to(#be3820));
+  background: linear-gradient(90deg, #38a38e 10%, #901e1e 85%, #be3820 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 80px;
+  border-radius: 20px;
+}
+
+.section-3 .big-box .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.section-3 .big-box .left h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.section-3 .big-box .left a {
+  text-decoration: none;
+  color: #111;
+}
+
+.section-3 .big-box2 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #38a38e), color-stop(85%, #901e1e), to(#be3820));
+  background: linear-gradient(90deg, #38a38e 10%, #901e1e 85%, #be3820 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 90px 0 150px;
+  border-radius: 20px;
+  height: 500px;
+}
+
+.section-3 .big-box2 .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.section-3 .big-box2 .right h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.section-3 .big-box2 .right a {
+  text-decoration: none;
+  color: #111;
+}
+
+.section-3 .big-box2 .person .p-img {
+  width: 250px;
+  height: 210px;
+}
+
+.section-3 .big-box2 .person .p-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+  margin-top: -10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section-3 .big-box2 .person .p-info .left {
+  color: white;
+}
+
+.section-3 .big-box2 .person .p-info .right {
+  color: white;
+}
+
+.section-4 {
+  height: 100vh;
+  background-color: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px;
+}
+
+.section-4 .box1 {
+  background-color: #555555;
+  height: 400px;
+  padding: 40px 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.section-4 .box1 img {
+  width: 50px;
+}
+
+.section-4 .box1 p {
+  width: 300px;
+  line-height: 25px;
+}
+
+.section-5 {
+  height: 90vh;
+  background-color: #111111;
+  padding: 100px;
+}
+
+.section-5 main {
+  width: 100%;
+  height: calc(100% - 100px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 200px;
+}
+
+.section-5 main .left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  padding: 60px 0;
+}
+
+.section-5 main .left b {
+  color: #FF3998;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+}
+
+.section-5 main .left h1 {
+  color: white;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 75px;
+  line-height: 80px;
+}
+
+.section-5 main .left p {
+  color: #CCCCCC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.section-5 main .left button {
+  background-color: transparent;
+  border-color: #ff7438;
+  border-radius: 100px;
+  padding: 22px 56px;
+  font-size: 20px;
+  color: white;
+}
+
+.section-5 main .left button:active {
+  background-color: #ff7438;
+}
+
+.section-5 main .right {
+  width: 50%;
+}
+
+.section-5 main .right img {
+  width: 250px;
+  height: 500px;
 }
 
 * {

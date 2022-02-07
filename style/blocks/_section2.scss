@@ -1,7 +1,10 @@
 .section-2{
-    height: 100vh;
+    height: 110vh;
     background-color: #111111;
     padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     .box{
         background-color: #ff7438;
@@ -88,7 +91,6 @@
     }
 
     header{
-        margin-top: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -123,7 +125,6 @@
     .persons{
         display: flex;
         justify-content: space-between;
-        margin-top: 30px;
 
         .person{
 
